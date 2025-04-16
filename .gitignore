@@ -1,2 +1,12 @@
-.csv
-.venv
+# Ignorar a venv inteira
+.venv/
+
+# Ignorar arquivos CSV, exceto se quiser manter alguns exemplos de dados
+*.csv
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Arquivos temporários
+*.pyc
+__pycache__/
